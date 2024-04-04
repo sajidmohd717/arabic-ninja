@@ -15,3 +15,11 @@ h2 {
 h3 {
     font-size: 40px;
 }
+
+.test-flex {
+    display: flex;
+}
+
+.test-flex div {
+    flex: 1;
+}
