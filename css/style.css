@@ -1,6 +1,7 @@
 * {
     text-align: center;
     font-family: "Graphik", Sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -16,10 +17,27 @@ h3 {
     font-size: 40px;
 }
 
-.test-flex {
+.header, .left, .right, .center{
     display: flex;
+    align-items: center;
+    font-weight: bold;
 }
 
-.test-flex div {
-    flex: 1;
+.left, .center {
+    margin-right: auto;
+    gap: 40px;
+}
+
+.log-in, .sign-up {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.right {
+    gap: 7px;
+}
+
+.sign-up {
+    background-color: #027ACC;
+    color: #FFFFFF;
 }
