@@ -1,12 +1,27 @@
-* {
-    text-align: center;
-    font-family: "Graphik", Sans-serif;
-    font-size: 16px;
+.header{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
 }
 
-h1 {
-    font-size: 100px;
-    margin: 10px;
+.left {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
 
 h2 {
@@ -15,17 +30,6 @@ h2 {
 
 h3 {
     font-size: 40px;
-}
-
-.header, .left, .right, .center{
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
-.left, .center {
-    margin-right: auto;
-    gap: 40px;
 }
 
 .log-in, .sign-up {
