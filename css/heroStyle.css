@@ -1,0 +1,32 @@
+.hero {
+    color: white;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5)
+}
+
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hero-btn {
+    padding: 10px;
+    font-weight: bold;
+}

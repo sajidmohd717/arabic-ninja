@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/headerStyle.css" />
+  <link rel="stylesheet" href="css/heroStyle.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arabic Ninja</title>
@@ -25,10 +27,20 @@
       <button class="sign-up">Sign Up</button>
     </div>
   </div>
-  <hr />
-  <h1>Arabic Ninja</h1>
-  <h2>Language-learning methodology that's proven effective.</h2>
-  <hr />
+
+  <div class="hero">
+    
+    <video loop muted autoplay preload="auto" class="video-bg">
+      <source src="videos/hero-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+      <h1>Arabic Ninja</h1>
+      <h2>Learn Arabic like never before</h2>
+      <button class="hero-btn"  style="width: 175px;">Start your journey</button>
+    </div>
+  </div>
+
   <h3>How it works</h3>
   <ul>
     <li>Learn it</li>
