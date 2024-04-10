@@ -3,6 +3,13 @@
     display: flex;
     justify-content: space-around;
     font-weight: bold;
+    height: 70px;
+}
+
+.hero-h2 {
+    margin: 0;
+    font-family: 'Gagalin', sans-serif; 
+    font-size: 75px;
 }
 
 .left {
