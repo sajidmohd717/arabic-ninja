@@ -1,6 +1,6 @@
 # arabic-ninja
 
-Visit the website here: https://sajidmohd717.github.io/arabic-ninja/
+Visit the website here: https://sajidmohd717.github.io/arabic-nur/
 
 Video by Alena Darmel: https://www.pexels.com/video/close-up-of-a-quran-8165467/
 
