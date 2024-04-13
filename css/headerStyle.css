@@ -1,4 +1,4 @@
-.header{
+header{
     color: black;
     display: flex;
     justify-content: space-around;
@@ -57,3 +57,4 @@ h3 {
     background-color: white;
     color: #000000;
 }
+
