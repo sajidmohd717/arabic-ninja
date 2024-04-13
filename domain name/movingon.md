@@ -1,7 +1,0 @@
-i'm creating a website, for english speaking people to learn arabic. The website will be called either Arabic Nur or Arabic Bloom but have not confirmed it yet, i'm sticking with Arabic Nur for now.
-
-There will be lessons and interactive lessons and games for people to learn arabic. This is the methodology for how the website will work. There will be units, then chapters, then lessons, sort of like what they do in mango languages app. Users will learn basic grammar and basic vocabulary and will be able to read simple childrens book, and slowly as they progress on with more chapters and units, they will move on to a higher grade vocabulary and grammar books etc. 
-
-I want this application to be fun and enjoyable, i also want the domain name and style of the application to be bright and uplifting, like duolingo. Here, people will come to enjoy and learn arabic anywhere, anytime on the go, with efficiency, ease and fun! Think through of the slogan, motto and goal of this website as well. 
-
-Finally share what you think is the best for the vision i have for this website. I have yet to come up with the logo for this website, perhaps help me generate one! also give me an idea on how i should structure the landing page etc. Thanks
