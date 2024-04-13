@@ -7,18 +7,6 @@ header{
     align-items: center;
 }
 
-.hero-h2 {
-    margin: 0;
-    font-family: 'Gagalin', sans-serif; 
-    font-size: 75px;
-}
-
-.left {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
 ul {
     display: flex;
     align-items: center;
@@ -30,14 +18,7 @@ ul {
     display: flex;
     align-items: center;
     font-weight: bold;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 40px;
+    gap: 7px;
 }
 
 .log-in, .sign-up {
@@ -45,8 +26,9 @@ h3 {
     font-weight: bold;
 }
 
-.right {
-    gap: 7px;
+.log-in {
+    background-color: white;
+    color: #000000;
 }
 
 .sign-up {
@@ -54,8 +36,8 @@ h3 {
     color: #FFFFFF;
 }
 
-.log-in {
-    background-color: white;
-    color: #000000;
+@media screen and (max-width: 630px) {
+    nav {
+        display: none;
+    }
 }
-
