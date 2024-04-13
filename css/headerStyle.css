@@ -4,6 +4,7 @@ header{
     justify-content: space-around;
     font-weight: bold;
     height: 70px;
+    align-items: center;
 }
 
 .hero-h2 {
@@ -18,7 +19,7 @@ header{
     font-weight: bold;
 }
 
-.center{
+ul {
     display: flex;
     align-items: center;
     gap: 50px;
