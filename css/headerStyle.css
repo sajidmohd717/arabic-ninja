@@ -57,8 +57,16 @@ header button {
     border-radius: 20px;
 }
 
+.logo-word {
+    color: #2F3C4C;
+    font-size: 18px;
+}
 
-
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 
 @media screen and (max-width: 630px) {

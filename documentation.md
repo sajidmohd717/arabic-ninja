@@ -9,3 +9,5 @@ Orange: FD8549
 Very Dark blue: 2F3C4C
 
 Based off: https://websitedemos.net/daycare-02/
+
+cd6705
