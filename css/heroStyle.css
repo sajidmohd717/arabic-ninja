@@ -29,6 +29,7 @@
 .hero-btn {
     padding: 10px;
     font-weight: bold;
+    background-color: rgb(250, 210, 110);
 }
 
 .hero-h2 {
@@ -59,11 +60,17 @@
     align-items: flex-end;
 }
 
-.features-container {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px;
-    column-gap: 100px;
-    flex-wrap: wrap;
-    justify-content: center;
+.features-container img {
+    width: 25%;
+    height: auto;
+}
+
+.progress {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.mobile {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
 }

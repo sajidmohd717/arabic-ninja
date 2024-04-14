@@ -36,6 +36,16 @@ ul {
     color: #FFFFFF;
 }
 
+.log-in:hover {
+    background-color: black;
+    color: white;
+}
+
+.sign-up:hover {
+    background-color: white;
+    color: #027ACC;
+}
+
 @media screen and (max-width: 630px) {
     nav {
         display: none;
