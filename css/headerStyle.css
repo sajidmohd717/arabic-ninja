@@ -22,7 +22,7 @@ ul {
 }
 
 .log-in, .sign-up {
-    padding: 10px 15px;
+    padding: 7px 15px;
     font-weight: bold;
 }
 
@@ -32,22 +32,38 @@ ul {
 }
 
 .sign-up {
-    background-color: #027ACC;
+    background-color: #2F3C4C;
     color: #FFFFFF;
 }
 
 .log-in:hover {
-    background-color: black;
+    background-color: #FD8549;
     color: white;
 }
 
 .sign-up:hover {
-    background-color: white;
-    color: #027ACC;
+    background-color: #FD8549;
 }
+
+nav {
+    font-family: 'Nunito Sans';
+}
+
+#home {
+    color: #FD8549;
+}
+
+header button {
+    border-radius: 20px;
+}
+
+
+
+
 
 @media screen and (max-width: 630px) {
     nav {
         display: none;
     }
 }
+

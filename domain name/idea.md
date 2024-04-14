@@ -1,3 +1,5 @@
+## About
+
 i'm creating a website, for english speaking people to learn arabic. The website will be called either Arabic Nur.
 
 There will be interactive lessons and games for people to learn arabic in a fun and methodological approach
@@ -7,6 +9,10 @@ Lessons will be formatted this way: units > chapters > lessons, sort of like wha
 unit 4-6 would be grade 1 arabic books, here users will learn vocab, grammar, and read actual childrens' books for grade 1 arabic students. 
 
 and slowly as they progress on with more chapters and units, they will move on to a higher grade vocabulary and grammar books etc, and they will read arabic books that are meant to be for a higher level of arabic students.
+
+
+
+### Prompt
 
 I want this application to be fun and enjoyable, i also want the domain name and style of the application to be bright and uplifting, like duolingo. Here, people will come to enjoy and learn arabic anywhere, anytime on the go, with efficiency, ease and fun! Think through of the slogan, motto and goal of this website as well. 
 
