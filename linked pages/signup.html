@@ -12,15 +12,31 @@
     <form action="example.com/path" method="post" class="signup_form">
         <div>
             <label for="first_name"> Frist Name:</label>
-            <input type="text" id="first_name" placeholder="First Name" name="first_name">
+            <input type="text" id="first_name" placeholder="Sajid" name="first_name">
         </div>
         <div>
             <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" placeholder="Last Name" name="last_name">
+            <input type="text" id="last_name" placeholder="Mohammad" name="last_name">
         </div>
         <div>
-            <label for="age">Age: </label>
-            <input type="text" id="age" placeholder="age" name="age">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div>
+            <label for="proficiency">Language Proficiency</label>
+            <select name="Proficiency" id="proficiency">
+                <option value="beginner">beginner</option>
+                <option value="intermediate">intermediate</option>
+                <option value="advanced">advanced</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="myemail@gmail.com" name="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="********">
         </div>
 
         <button type="submit">Submit</button>
