@@ -1,7 +1,7 @@
 header{
     color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bold;
     height: 70px;
     align-items: center;
@@ -66,6 +66,14 @@ header button {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.orange {
+    color: #78819E
+}
+
+.blue {
+    color: #78819E
 }
 
 
