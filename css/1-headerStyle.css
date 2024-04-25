@@ -1,0 +1,83 @@
+/* Header Style */
+header {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  height: 70px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+  color: rgb(86, 100, 118);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 7px;
+}
+
+.log-in,
+.sign-up {
+  padding: 7px 15px;
+  font-weight: bold;
+}
+
+.log-in {
+  background-color: white;
+  color: #000000;
+  border: none;
+}
+
+.sign-up {
+  background-color: #2f3c4c;
+  color: #ffffff;
+  border: none;
+}
+
+.log-in:hover {
+  background-color: #fd8549;
+  color: white;
+}
+
+.sign-up:hover {
+  background-color: #fd8549;
+}
+
+nav {
+  font-family: "Nunito Sans";
+}
+
+#home {
+  color: #fd8549;
+}
+
+header button {
+  border-radius: 20px;
+}
+
+.logo-word {
+  color: #2f3c4c;
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.headerHero {
+  background-image: url(https://websitedemos.net/daycare-02/wp-content/uploads/sites/1041/2022/03/day-care-hero-blobs-background.svg);
+  height: 720px;
+  width: auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50vw auto;
+}
+
