@@ -11,34 +11,44 @@
 <body>
     <form action="example.com/path" method="post" class="signup_form">
         <div>
-            <label for="first_name"> Frist Name:</label>
-            <input type="text" id="first_name" placeholder="Sajid" name="first_name">
+            <label for="first_name">* Frist Name:</label>
+            <input type="text" id="first_name" placeholder="Sajid" name="first_name" required>
         </div>
         <div>
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" placeholder="Mohammad" name="last_name">
+            <label for="last_name">* Last Name:</label>
+            <input type="text" id="last_name" placeholder="Mohammad" name="last_name" required>
         </div>
         <div>
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob">
+            <label for="dob">* Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <fieldset>
+            <legend>* Language Profiency in Arabic</legend>
+            <div>
+                <input type="radio" id="beginner" name="proficiency" value="beginner" required>
+                <label for="beginner">beginner</label>
+            </div>
+            <div>
+                <input type="radio" id="intermediate" name="proficiency" value="intermediate" required>
+                <label for="beginner">intermediate</label>
+            </div>
+            <div>
+                <input type="radio" id="advanced" name="proficiency" value="advanced" required>
+                <label for="beginner">advanced</label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="email">* Email:</label>
+            <input type="email" id="email" placeholder="myemail@gmail.com" name="email" required>
         </div>
         <div>
-            <label for="proficiency">Language Proficiency</label>
-            <select name="Proficiency" id="proficiency">
-                <option value="beginner">beginner</option>
-                <option value="intermediate">intermediate</option>
-                <option value="advanced">advanced</option>
-            </select>
+            <label for="password">* Password:</label>
+            <input type="password" id="password" placeholder="********" required>
         </div>
         <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="myemail@gmail.com" name="email">
+            <input type="checkbox" id="terms&conditions" name="terms&conditions">
+            <label for="terms&conditions">* Agree with terms and conditions</label required>
         </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" placeholder="********">
-        </div>
-
         <button type="submit">Submit</button>
 
     </form>
