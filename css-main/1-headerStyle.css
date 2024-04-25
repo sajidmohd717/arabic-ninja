@@ -45,6 +45,10 @@ nav ul {
   color: white;
 }
 
+nav a:hover {
+  color: #fd8549;
+}
+
 .sign-up:hover {
   background-color: #fd8549;
 }
