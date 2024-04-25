@@ -1,0 +1,49 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: auto;
+    display: none;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+img.displaySlide {
+    display: block
+}
+
+.slide {
+    height: 70vh;
+}
+
+.previous,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Background color */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 1; /* Ensure buttons appear above the slides */
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+* {
+    text-align: center;
+}

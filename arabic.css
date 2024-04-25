@@ -1,0 +1,23 @@
+body {
+    background-color: #F6FDFE;
+}
+
+.grades > div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.grade_number {
+    font-size: 26px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
