@@ -47,3 +47,20 @@ img.displaySlide {
 * {
     text-align: center;
 }
+
+.start_button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.start {
+    margin-top: 50px;
+}
+
+button {
+    cursor:pointer
+}
